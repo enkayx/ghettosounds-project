@@ -1,0 +1,25 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #000;
+}
+
+.nav-link {
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #666 !important;
+}
+
+.card {
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  border: 1px solid #eee;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
